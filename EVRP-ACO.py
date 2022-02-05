@@ -318,7 +318,7 @@ class colonia:
         return None  
 
 def main():
-    ins = Instancia("ccp.evrp")
+    ins = Instancia("instancias/ccp.evrp")
     modelo = colonia(ins, poblacion = 30 , iterMax= 1000)
     modelo.ejecutar()
     modelo.graficarLog()
